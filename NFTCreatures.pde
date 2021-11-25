@@ -34,7 +34,7 @@ void draw() {
   saving = n % nCreatures == 0 && n < nImages * nCreatures;
 
   if (saving) {
-    saveFrame("tokens/NFT######.jpg");
+    saveFrame("tokens/NFTCreature######.jpg");
   } else {
    // background(255);
   }
